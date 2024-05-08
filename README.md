@@ -56,5 +56,11 @@
   El algoritmo para calcular la suma de los digitos de un numero se encuentra en Ejercicio4/recursividad.java, se llama desde el Main.java.
 
   El tipo de recursividad es de tipo lineal y la complejidad del calculo computacional seria O(n) siendo n el numero ingresado.
+
+# Ejercicio 5:
+  Este ejercicio se ha relizado en el paquete Ejercicio5 y se ejecuta en el Main.java.
+
+  No me ha dado tiempo a acabarlo debido a que llegue tarde por un percance con la renfe por lo que el ejecicio 5 esta incompleto, solo he completado el 5.1.
+  
     
      
