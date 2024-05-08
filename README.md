@@ -1,13 +1,13 @@
 # Caso-Final-Integrador-Final-de-los-Finales
 
-Ejercicio 1:
+# Ejercicio 1:
   1. b) Debemos establecer la visibilidad más restrictiva (por ejemplo, privada) en los atributos de una clase. Así, cualquier software que utilice nuestro objeto, sólo accederá al estado de los objetos mediante los métodos que le hayamos permitido utilizar.
   2. b) Falso.
   3. b) Herencia.
   4. b) O(1).
   5. b) Falso.
 
-Ejercicio 2:
+# Ejercicio 2:
   2. Explica las diferencias entre una tabla Hash y un árbol. ¿ Cuándo conviene utilizar cada una de estas estructuras? Justifique su respuesta y analice todas la posibles operaciones a realizar por las estructuras. No redacte el orden tal y como puede ver en los apuntes, razónelo con sus propias palabras y argumentos.
 
   La diferencia entre una tabla Hash y un arbol es que la tabla Hash se utiliza cuando necesitamos un acceso mas rapido para los datos mientras que el arbol se utiliza cuando quies tener los datos ordenados o buscar por rangos.
@@ -32,4 +32,23 @@ Ejercicio 2:
   Calcular a partir de qué tamaño de entrada n A es más eficiente que B.
 
   A partir de n = 8 A sera mas eficiente que B.
+
+# Ejercicio 3:  Dado el siguiente algoritmo recursivo:
+  a) El codigo no compila, ya que se crea un bucle infinito debido a que B nunca llegua a 0.
+    Para que compile la funcion recursive deberia ser asi: 
+      
+      public static int recursive(int a, int b) {
+        if (b == 0) {
+            return 1;
+        } else if(b < 0) {
+            return a * recursive(a, b + 1);
+        }else if (a == 0) {
+            return 0;
+        } else {
+            return a * recursive(a, b - 1);
+        }
+
+  b) La funcion recursive esta calculando A elevado a B de forma recursiva, en cada llamada se llama a A * B -1 por lo que la recursividad es de tipo lineal o directa.
+  
+    
      
