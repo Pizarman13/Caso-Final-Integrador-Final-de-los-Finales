@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.Ejercicio4.Recursividad;
+import org.example.Ejercicio5.*;
 
 import java.util.Scanner;
 
@@ -31,7 +32,20 @@ public class Main {
                     salir = false;
                     break;
                 case 2:
+                    System.out.println();
                     System.out.println("Ejercicio 5");
+
+                    Email email = new Email("diegopizarrogarrido@gmail.com");
+                    Email email2 = new Email("dpizgar@myuax.com");
+                    UserAccount user = new UserAccount("Diego", email);
+                    UserAccount user2 = new UserAccount("Diego2", email2);
+
+                    user.seguir(user2);
+                    user.tweet(new Tweet("Hola Mundo"));
+                    user2.tweet(new Tweet("Hola Mundo 2"));
+
+                    System.out.println(user);
+                    System.out.println(user2);
                     break;
                 case 0:
                     System.exit(0);
