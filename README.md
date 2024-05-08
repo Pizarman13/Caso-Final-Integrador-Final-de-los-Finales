@@ -50,7 +50,8 @@
 
   b) La funcion recursive esta calculando A elevado a B de forma recursiva, en cada llamada se llama a A * B -1 por lo que la recursividad es de tipo lineal o directa.
 
-# Ejercicio 4: Calcular de forma recursiva la suma de los dígitos de un número siendo un ejemplo el número 102 -> 1 + 0 + 2 = 3. Recuerde que puede realizar los cambios de tipo que crea necesarios para facilitar la resolución. ¿Qué tipo de recursividad se está empleando? ¿Qué complejidad computacional tiene el algoritmo?
+# Ejercicio 4: 
+  Calcular de forma recursiva la suma de los dígitos de un número siendo un ejemplo el número 102 -> 1 + 0 + 2 = 3. Recuerde que puede realizar los cambios de tipo que crea necesarios para facilitar la resolución. ¿Qué tipo de recursividad se está empleando? ¿Qué complejidad computacional tiene el algoritmo?
 
   El algoritmo para calcular la suma de los digitos de un numero se encuentra en Ejercicio4/recursividad.java, se llama desde el Main.java.
 
